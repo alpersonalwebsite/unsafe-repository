@@ -1,0 +1,3 @@
+# Example requirements.txt for grype
+flask==1.0
+pyyaml==3.13
