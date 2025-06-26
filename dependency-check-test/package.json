@@ -1,0 +1,9 @@
+{
+  "name": "vulnerable-node-app",
+  "version": "1.0.0",
+  "description": "An intentionally vulnerable Node.js app",
+  "dependencies": {
+    "lodash": "4.17.11",   // Known prototype pollution vulnerability
+    "express": "4.16.0"    // Known security issues in older Express versions
+  }
+}
